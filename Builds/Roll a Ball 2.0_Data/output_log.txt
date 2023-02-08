@@ -1,0 +1,81 @@
+Initialize engine version: 5.6.7f1 (e80cc3114ac1)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8146 MB
+    Driver:   31.0.12029.10015
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Francis LOL\Documents\Programación de VideoJuegos\Primer Parcial\Roll a ball\Roll a ball 2.0\Builds\Roll a Ball 2.0_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Francis LOL\Documents\Programación de VideoJuegos\Primer Parcial\Roll a ball\Roll a ball 2.0\Builds\Roll a Ball 2.0_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Francis LOL\Documents\Programación de VideoJuegos\Primer Parcial\Roll a ball\Roll a ball 2.0\Builds\Roll a Ball 2.0_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Francis LOL\Documents\Programación de VideoJuegos\Primer Parcial\Roll a ball\Roll a ball 2.0\Builds\Roll a Ball 2.0_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Francis LOL\Documents\Programación de VideoJuegos\Primer Parcial\Roll a ball\Roll a ball 2.0\Builds\Roll a Ball 2.0_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Francis LOL\Documents\Programación de VideoJuegos\Primer Parcial\Roll a ball\Roll a ball 2.0\Builds\Roll a Ball 2.0_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Francis LOL\Documents\Programación de VideoJuegos\Primer Parcial\Roll a ball\Roll a ball 2.0\Builds\Roll a Ball 2.0_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Francis LOL\Documents\Programación de VideoJuegos\Primer Parcial\Roll a ball\Roll a ball 2.0\Builds\Roll a Ball 2.0_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Francis LOL\Documents\Programación de VideoJuegos\Primer Parcial\Roll a ball\Roll a ball 2.0\Builds\Roll a Ball 2.0_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Francis LOL\Documents\Programación de VideoJuegos\Primer Parcial\Roll a ball\Roll a ball 2.0\Builds\Roll a Ball 2.0_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.010 seconds
+Platform assembly: C:\Users\Francis LOL\Documents\Programación de VideoJuegos\Primer Parcial\Roll a ball\Roll a ball 2.0\Builds\Roll a Ball 2.0_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Francis LOL\Documents\Programación de VideoJuegos\Primer Parcial\Roll a ball\Roll a ball 2.0\Builds\Roll a Ball 2.0_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 144Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.580200 ms
+Setting up 6 worker threads for Enlighten.
+  Thread -> id: 4370 -> priority: 1 
+  Thread -> id: 21c8 -> priority: 1 
+  Thread -> id: 3984 -> priority: 1 
+  Thread -> id: 48f8 -> priority: 1 
+  Thread -> id: 476c -> priority: 1 
+  Thread -> id: 3b4 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+IndexOutOfRangeException: Array index is out of range.
+  at MenuController.UnPause () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 2.911500 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 502.
+Total: 0.245900 ms (FindLiveObjects: 0.015000 ms CreateObjectMapping: 0.006500 ms MarkObjects: 0.116200 ms  DeleteObjects: 0.107800 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.427000 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 301.
+Total: 0.158800 ms (FindLiveObjects: 0.008000 ms CreateObjectMapping: 0.006500 ms MarkObjects: 0.100000 ms  DeleteObjects: 0.043600 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.197800 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 352.
+Total: 0.136200 ms (FindLiveObjects: 0.010200 ms CreateObjectMapping: 0.006000 ms MarkObjects: 0.115700 ms  DeleteObjects: 0.004000 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.228000 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 301.
+Total: 0.117400 ms (FindLiveObjects: 0.009000 ms CreateObjectMapping: 0.005700 ms MarkObjects: 0.098600 ms  DeleteObjects: 0.003800 ms)
+
