@@ -12,7 +12,6 @@ public class CamaraController : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-
     //diferencia entre la posición de la cámara y la del jugador
     offset = transform.position - jugador.transform.position;
 
